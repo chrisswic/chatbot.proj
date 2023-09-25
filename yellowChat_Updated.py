@@ -1,8 +1,8 @@
 import nltk
 import streamlit as st
 import random
-# from sklearn.feature_extraction.text import TfidfVectorizer
-# from sklearn.metrics.pairwise import cosine_similarity      
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import cosine_similarity      
 import pandas as pd
 import warnings
 warnings.filterwarnings('ignore')
@@ -159,7 +159,7 @@ st.markdown("<h6 style = 'text-align: center; top-margin: 0rem; color: #64CCC5'>
 
 st.markdown("<br> <br>", unsafe_allow_html= True)
 col1, col2 = st.columns(2)
-col1.image('pngwing.com-4.png', caption = 'Mental Health Related Chats')
+col1.image('call-logo-customer-service-call-centre-technical-support-customer-support-customer-service-representative-help-desk-service-quality-png-clipart.jpg', caption = 'Mental Health Related Chats')
 
 history = []
 st.sidebar.markdown("<h2 style = 'text-align: center; top-margin: 0rem; color: #64CCC5'>Chat History</h2>", unsafe_allow_html = True)
