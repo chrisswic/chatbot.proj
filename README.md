@@ -1,2 +1,2 @@
-# chatbot.proj
-chatbot project 
+# chatbot
+chat bot for my checkpoint
